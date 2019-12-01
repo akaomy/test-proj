@@ -30,5 +30,5 @@ app.put('/users/:id', db.updateUser)
 app.delete('/users/:id', db.deleteUser)
 
 app.listen(port, () => {
-  console.log('app runing on port ${port}')
+  console.log(`App running on port ${port}.`)
 });
